@@ -6,7 +6,17 @@
 About our proof of concept:
 
 ### POC details 
-Through our POC, we built a recommendation system, combining the social media sentiments (text/media) to arrive at the mental state of a person. The weights/probabilities from each text/media model are utilized to arrive at a recommendation. The recommendations are generic and are rule based. 
+Through our POC, we built a recommendation system, combining the social media sentiments (text/media) to arrive at the mental state of a person. The weights/probabilities from each text/media model are utilized to arrive at a recommendation. The recommendations are generic and are rule based.
+
+<img width="692" alt="Screenshot 2022-04-12 at 3 17 55 PM" src="https://user-images.githubusercontent.com/17350312/162932717-79b18a9e-718c-44c9-aadc-cffa2bac6e1f.png">
+
+
+### Modelling tools and packages
+
+- Text2emotion 
+    - Python package which yields the emotional context behind a given text input. It has the capability to incorporate emojis or shortcodes. The outcome is     based on 05 categories - Happy, angry, sad, surprise, fear
+- Facial expression Recognition 
+    - We have used Pytorch to achieve our  computer vision task. We created a Convolutional Neural Network Model with Residual Networks which will increase the number of channels of the face image data and decrease the dimension. 
 
 ### Conclusion and future scope
 
